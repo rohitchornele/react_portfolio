@@ -119,7 +119,7 @@ const experiences = [
     company_name: "Maxgen Technologies",
     icon: maxgenlogo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - May 2021",
+    date: "Jan 2020 - May 2020",
     points: [
       "Helping senior developers to Develop and maintain android applications using Java and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
