@@ -18,6 +18,7 @@ import {
   realestate,
   todo,
   zomato,
+  urlshort,
 } from "../assets";
 
 export const navLinks = [
@@ -205,6 +206,24 @@ const projects = [
     image: todo,
     source_code_link: "https://todolocal-one.vercel.app/",
     previw_link: "https://todolocal-one.vercel.app/",
+  },
+  {
+    name: "URL Shortner App",
+    description:
+      "efficient URL shortener built with Node.js and Express. It allows users to generate short, shareable links that redirect to long URLs.",
+    tags: [
+      {
+        name: "node.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: urlshort,
+    source_code_link: "https://github.com/rohitchornele/urlShortner",
+    previw_link: "https://github.com/rohitchornele/urlShortner",
   },
 ];
 

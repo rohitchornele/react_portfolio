@@ -36,6 +36,7 @@ import dashboard from './dashboard.png';
 import realestate from './realestate.png';
 import zomato from './zomato.png'
 import todo from './todo.png'
+import urlshort from './urlshort.png'
 
 
 
@@ -69,6 +70,7 @@ export {
   motionLogo,
   meta,
   todo,
+  urlshort,
   shopify,
   starbucks,
   tesla,
