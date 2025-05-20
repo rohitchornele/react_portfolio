@@ -203,8 +203,8 @@ const projects = [
       },
     ],
     image: todo,
-    source_code_link: "hhttps://luminous-mermaid-11c47d.netlify.app/",
-    previw_link: "https://luminous-mermaid-11c47d.netlify.app/",
+    source_code_link: "https://todolocal-one.vercel.app/",
+    previw_link: "https://todolocal-one.vercel.app/",
   },
 ];
 
