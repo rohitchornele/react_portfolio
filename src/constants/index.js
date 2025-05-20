@@ -1,10 +1,8 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -14,16 +12,11 @@ import {
   nodejs,
   mongodb,
   git,
-  meta,
   tcslogo,
   maxgenlogo,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  motionLogo,
   realestate,
+  todo,
   zomato,
 } from "../assets";
 
@@ -34,7 +27,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Works",
   },
   {
     id: "contact",
@@ -91,8 +84,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Framer Motion",
+    icon: motionLogo,
   },
   {
     name: "Git",
@@ -137,22 +130,6 @@ const testimonials = [
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
@@ -208,6 +185,24 @@ const projects = [
       },
     ],
     image: zomato,
+    source_code_link: "hhttps://luminous-mermaid-11c47d.netlify.app/",
+    previw_link: "https://luminous-mermaid-11c47d.netlify.app/",
+  },
+  {
+    name: "Todo with Local Storage",
+    description:
+      "A simple and efficient To-Do App built with React.js that helps users manage their daily tasks. The app uses the browser's Local Storage to save tasks, ensuring data persists across sessions without the need for a backend.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: todo,
     source_code_link: "hhttps://luminous-mermaid-11c47d.netlify.app/",
     previw_link: "https://luminous-mermaid-11c47d.netlify.app/",
   },

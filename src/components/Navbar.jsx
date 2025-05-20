@@ -43,7 +43,7 @@ const Navbar = () => {
           }}
         >
           <img src={herologo} alt='logo' className='w-9 h-9 object-cover' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+          <p className='text-white text-[24px] font-bold cursor-pointer flex '>
             Rohit &nbsp;
             <span className='sm:block hidden'> | Web Developer</span>
           </p>

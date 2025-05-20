@@ -19,7 +19,7 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import motionLogo from './tech/motion.png'
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -35,6 +35,7 @@ import herologo from './herologo.png';
 import dashboard from './dashboard.png';
 import realestate from './realestate.png';
 import zomato from './zomato.png'
+import todo from './todo.png'
 
 
 
@@ -65,8 +66,9 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
+  motionLogo,
   meta,
+  todo,
   shopify,
   starbucks,
   tesla,
