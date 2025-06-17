@@ -20,7 +20,7 @@ const Tech = () => {
           Technologies.
         </h2>
       </motion.div>
-    <div className="flex flex-row flex-wrap justify-center gap-10">
+    <div className="flex flex-row flex-wrap justify-center gap-10 mt-10">
       {technologies.map((technology) => (
         <Tooltip title={technology.name}  key={technology.name} placement="bottom" arrow>
           <div className="w-28 h-28">
@@ -33,12 +33,4 @@ const Tech = () => {
   );
 };
 
-export default SectionWrapper(Tech, "");
-
-{
-  /* <Tooltip title="Delete">
-  <IconButton>
-    <DeleteIcon />
-  </IconButton>
-</Tooltip> */
-}
+export default SectionWrapper(Tech, "tech");

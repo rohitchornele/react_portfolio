@@ -2,10 +2,10 @@ import {
   mobile,
   backend,
   web,
-  javascript,
-  html,
-  css,
-  reactjs,
+  javascriptlogo,
+  htmllogo,
+  csslogo,
+  reactjslogo,
   redux,
   dashboard,
   tailwind,
@@ -19,6 +19,7 @@ import {
   todo,
   zomato,
   urlshort,
+  wplogo,
 } from "../assets";
 
 export const navLinks = [
@@ -57,20 +58,20 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "HTML",
+    icon: htmllogo,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "CSS",
+    icon: csslogo,
   },
   {
     name: "JavaScript",
-    icon: javascript,
+    icon: javascriptlogo,
   },
   {
     name: "React JS",
-    icon: reactjs,
+    icon: reactjslogo,
   },
   {
     name: "Redux Toolkit",
@@ -95,6 +96,10 @@ const technologies = [
   {
     name: "Git",
     icon: git,
+  },
+  {
+    name: "Wordpress",
+    icon: wplogo,
   },
 ];
 
