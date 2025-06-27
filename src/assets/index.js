@@ -26,7 +26,8 @@ import realestate from './realestate.png';
 import zomato from './zomato.png'
 import todo from './todo.png'
 import urlshort from './urlshort.png'
-import wplogo from './tech/wp-logo-2.png'
+import wplogo from './tech/wp-logo-2.png';
+import imagen from './imagen.png'
 
 
 
@@ -58,4 +59,5 @@ export {
   todo,
   urlshort,
   wplogo,
+  imagen,
 };

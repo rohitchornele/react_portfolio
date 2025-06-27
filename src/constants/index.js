@@ -20,6 +20,7 @@ import {
   zomato,
   urlshort,
   wplogo,
+  imagen,
 } from "../assets";
 
 export const navLinks = [
@@ -144,6 +145,29 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "AI Image Generator",
+    description:
+      "AI Image Generator is a web-based application built using MERN stack, that uses artificial intelligence to create images from text prompts.",
+    tags: [
+      {
+        name: "MERN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "API",
+        color: "pink-text-gradient",
+      },
+      
+      {
+        name: "JWT",
+        color: "green-text-gradient",
+      },
+    ],
+    image: imagen,
+    source_code_link: "https://imagen-bc43.onrender.com/",
+    previw_link: "https://imagen-bc43.onrender.com/",
+  },
   {
     name: "Admin Dashboard",
     description:
