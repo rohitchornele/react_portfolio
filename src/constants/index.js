@@ -21,6 +21,7 @@ import {
   urlshort,
   wplogo,
   imagen,
+  school,
 } from "../assets";
 
 export const navLinks = [
@@ -167,6 +168,29 @@ const projects = [
     image: imagen,
     source_code_link: "https://imagen-bc43.onrender.com/",
     previw_link: "https://imagen-bc43.onrender.com/",
+  },
+  {
+    name: "School Management System",
+    description:
+      "It is a web based School Management System, built using MERN stack with Tailwind CSS and Matrial UI, This can be implemented for any school with their Brand Website.",
+    tags: [
+      {
+        name: "MERN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MATERIAL",
+        color: "pink-text-gradient",
+      },
+      
+      {
+        name: "JWT",
+        color: "green-text-gradient",
+      },
+    ],
+    image: school,
+    // source_code_link: "https://imagen-bc43.onrender.com/",
+    previw_link: "https://school-management-ndw8.onrender.com/",
   },
   {
     name: "Admin Dashboard",
