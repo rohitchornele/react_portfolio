@@ -28,6 +28,7 @@ import todo from './todo.png'
 import urlshort from './urlshort.png'
 import wplogo from './tech/wp-logo-2.png';
 import imagen from './imagen.png'
+import school from './school.png'
 
 
 
@@ -60,4 +61,5 @@ export {
   urlshort,
   wplogo,
   imagen,
+  school,
 };
